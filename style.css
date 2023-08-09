@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font: optional;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #f0f8eb;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+    color: #545893;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin: 20px 0;
+}
+
+nav {
+    background-color: #354f52; 
+    color: #fff; 
+    padding: 10px;
+    margin: 0 0 20px 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block; 
+    margin-right: 15px;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff; 
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 3px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav a:hover {
+    background-color: #fff;
+    color: #354f52;
+}
+
+h2 {
+    font-size: 30px;
+    color:#12743e;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.logo {
+    width: auto;
+    height: 250px;
+    margin: 0 auto;
+    display: block;
+}
+
+h3 {
+    font-size: 20px;
+    color:#5a2bdc;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.h3list {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.h3list ul {
+    list-style:none;
+    padding: 0;
+}
+
+.h3list li {
+    margin: 20px 0;
+}
+
+
+.products {
+    text-align: center;
+}
+
+.products img{
+    height:300px;
+}
+
+.products button {
+    background-color: rgb(20, 147, 126);
+    padding: 10px 25px;
+    margin: 10px 0;
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+}
+
+.products button:hover {
+    background-color: rgb(17, 122, 105);
+    transform: scale(1.05);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.product-item {
+    margin-top: 50px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #354f52;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer-content {
+    font-size: 16px;
+}
+
+.footer-content i {
+    color: #3cc8e7; 
+}
+
+.page-content {
+    margin-bottom: 80px; 
+}
